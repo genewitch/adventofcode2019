@@ -1,5 +1,5 @@
 total = 0
-with open('moduleinput.txt') as f:
+with open('input1.txt') as f:
     textlist = list(f)
 for line in textlist:
     modulerunning = (int(line)//3)-2 #has just the modules fuel for now
